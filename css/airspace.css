@@ -100,7 +100,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/big_smile.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: center top;
   padding: 150px 0 107px 0;
   position: relative;
 }
