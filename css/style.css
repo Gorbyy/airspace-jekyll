@@ -35,7 +35,7 @@
 
 .col-call-action {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .call-button {
@@ -51,4 +51,25 @@
 .call-button:hover {
   border-color: rgb(227, 227, 228);
   background-color: rgb(227, 227, 228);
+}
+
+#cards {
+  text-align: center;
+}
+
+#cards .col-md-4 {
+  padding: 50px;
+  height: 254.67px;
+}
+
+.first-card {
+  background: #dddddd;
+}
+
+.second-card {
+  background: #e9e9e9;
+}
+
+.third-card {
+  background: #F5F5F5;
 }
