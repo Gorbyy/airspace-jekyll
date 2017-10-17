@@ -50,6 +50,11 @@
     align-items: center;
   }
 }
+
+.slider-row {
+  margin: 0px;
+}
+
 .vertical-center{
   display: flex;
   flex-direction: column;

@@ -1,12 +1,13 @@
-- counter: 20000
-  icon: ion-ios-chatboxes-outline
-  text: Cups of Coffee
-- counter: 1500
-  icon: ion-ios-glasses-outline
-  text: Gallons of Soft Drink
-- counter: 1200
-  icon: ion-ios-compose-outline
-  text: Whiteboard Markers
-- counter: 300
-  icon: ion-ios-timer-outline
-  text: Websites built
+- counter: 28
+  icon: ion-calendar
+  text: Anos de existência
+- counter: 44800
+  icon: ion-medkit
+  text: Consultas realizadas
+- counter: 11200
+  icon: ion-waterdrop
+  text: Ciclos de esterlização
+- counter: 17
+  icon: ion-happy-outline
+  text: Músculos necessários para sorrir
+
