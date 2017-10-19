@@ -178,6 +178,7 @@ px      68    160    252    */
   #slider {
     padding-top: 90px;
     padding-bottom: 100px;
+    background-attachment: scroll;
   }
   #slider .block {
     padding-left: 0px;
@@ -213,6 +214,9 @@ px      68    160    252    */
   /*--
 	call-to-action Start 
 --*/
+  #call-to-action {
+    background-attachment: scroll;
+  }
   #call-to-action p {
     padding: 0px 0px 40px;
   }
@@ -242,6 +246,9 @@ px      68    160    252    */
   /*--
 	features Start 
 --*/
+  #feature {
+    background-attachment: scroll;
+  }
   #features .features-img {
     text-align: center;
   }
