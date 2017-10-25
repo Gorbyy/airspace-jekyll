@@ -16,6 +16,10 @@ px      68    160    252    344    436    528    620    712    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+  #slider {
+    background-attachment: scroll;
+  }
+
   /*--
 	wrapper Start 
 --*/
@@ -25,6 +29,12 @@ px      68    160    252    344    436    528    620    712    */
   #wrapper .block img {
     padding-top: 100px;
     width: 50%;
+  }
+  /*--
+  call-to-action Start 
+--*/
+  #call-to-action {
+    background-attachment: scroll;
   }
   /*--
 	content Start 
@@ -40,6 +50,7 @@ px      68    160    252    344    436    528    620    712    */
 --*/
   #features {
     text-align: center;
+    background-attachment: scroll;
   }
   /*--
 	footer Start 
@@ -176,8 +187,6 @@ px      68    160    252    */
     margin-bottom: 10px;
   }
   #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
     background-attachment: scroll;
   }
   #slider .block {
