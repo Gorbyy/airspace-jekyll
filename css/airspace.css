@@ -97,13 +97,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/big_smile.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  padding: 0px 0 0px 0;
-  position: relative;
-  min-height:100vh;
+  height:100vh;
 }
 #slider:before {
   content: "";
@@ -116,6 +110,20 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 100%;
   background: linear-gradient(to left, #000000, #000000);
   opacity: 0.6;
+}
+#slider:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("../img/big_smile.jpg") center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 #slider .block {
   color: #E3E3E4;
@@ -138,6 +146,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
+  background: white;
   padding: 100px 0;
 }
 #intro .block h2 {
@@ -162,6 +171,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #service {
+  background: white;
   text-align: center;
   padding: 90px 0;
 }
@@ -269,6 +279,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	content Start
 --*/
 #testimonial {
+  background: white;
   padding: 100px 0;
 }
 #testimonial .block h2 {
