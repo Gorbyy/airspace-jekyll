@@ -46,10 +46,9 @@ px      68    160    252    344    436    528    620    712    */
     padding-bottom: 100px;
   }
   /*--
-	features Start 
+	feature Start 
 --*/
-  #features {
-    text-align: center;
+  #feature {
     background-attachment: scroll;
   }
   /*--
