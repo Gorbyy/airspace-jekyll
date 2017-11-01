@@ -44,11 +44,9 @@
   width: 100%;
 }
 
-@media (min-width: 992px) {
-  .slider-row {
-    display: flex;
-    align-items: center;
-  }
+.slider-row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .vertical-center{
