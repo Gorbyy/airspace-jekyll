@@ -44,15 +44,11 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .slider-row {
     display: flex;
     align-items: center;
   }
-}
-
-.slider-row {
-  margin: 0px;
 }
 
 .vertical-center{
