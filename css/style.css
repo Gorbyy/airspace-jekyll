@@ -73,6 +73,7 @@
 .call-button:hover {
   background-color: #919292;
   border-color: #919292;
+  color: rgb(225, 188, 176);
 }
 
 #cards {
